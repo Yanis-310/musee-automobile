@@ -1,0 +1,22 @@
+
+
+.resumer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.collection_img img{
+    height: 450px;
+    border-radius: 50px; 
+}
+
+.collection p{
+    padding-left: 30px;
+    margin-right: 25px;
+    font-size: 1.5rem;
+}
+
+.collection h1{
+    font-size: 3.8rem;
+    padding-left: 30px;
+}
