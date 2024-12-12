@@ -2,7 +2,9 @@
 * {
     overflow-x: clip;
 }
-
+h1 {
+    font-family: 'limelight', sans-serif;
+} 
 
 .resumer{
     display: grid;
