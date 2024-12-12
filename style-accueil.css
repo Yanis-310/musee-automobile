@@ -156,16 +156,26 @@ nav ul {
 position: relative;
 z-index: 1;
 }
+.flex {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+@media screen and (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+  }
+}
 
 .A-propos {
-    display: flex;
-    flex-direction: row;
    margin-top: 25px;
    margin-bottom: 20px;
+   align-items: center;
 }
 
 .a-propos-left {
     margin:50px 30px auto 40px;
+    flex-basis: 100%;
 }
 .a-propos-left h2 {
     margin: 20px auto;
@@ -175,8 +185,14 @@ z-index: 1;
     margin: 30px auto;
 }
 
-.image-right img{
-    max-width: 800px;
+.a-propos-right {
+  flex-basis: 100%;
+  max-width: 800px;
+  flex-grow: 1;
+}
+
+.a-propos-right img{
+    width: 100%;
 }
 
 .image-separate {
@@ -188,8 +204,6 @@ z-index: 1;
 /* **************************** nos vehicules accueil**************************** */
 
 .nos-vehicules {
-    display: flex;
-    flex-direction: row;
     margin-top: 50px;
 }
 
