@@ -475,12 +475,7 @@ footer {
       
   .golf h1{
     font-size: 50px;
- } 
-} 
-
-
-
-
+  } 
   footer {
     display: block;
     height: 105vh;
@@ -496,13 +491,18 @@ footer {
   }
   .logo-nav img {
     max-width: 110px;
-
-}
-.logofooter {
+  
+  }
+  .logofooter {
   margin-bottom: 20px;
   margin-top: -20px;
+  
+  }
+} 
 
-}
+
+
+
 
 
 
